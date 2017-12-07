@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461A12771FD91C38005D1175 /* UnavailableForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A12761FD91C38005D1175 /* UnavailableForm.swift */; };
+		461A12791FD91EA0005D1175 /* HomeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A12781FD91EA0005D1175 /* HomeScreen2.swift */; };
+		461A127B1FD91FCE005D1175 /* submit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A127A1FD91FCE005D1175 /* submit.swift */; };
+		461A127F1FD962DE005D1175 /* navBarControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A127E1FD962DE005D1175 /* navBarControllers.swift */; };
+		461A12811FD97A30005D1175 /* HomeScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A12801FD97A30005D1175 /* HomeScreen1.swift */; };
 		46D0A9DB1FBF91A80096C26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0A9DA1FBF91A80096C26A /* AppDelegate.swift */; };
 		46D0A9DD1FBF91A80096C26A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0A9DC1FBF91A80096C26A /* ViewController.swift */; };
 		46D0A9E01FBF91A80096C26A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D0A9DE1FBF91A80096C26A /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		461A12761FD91C38005D1175 /* UnavailableForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableForm.swift; sourceTree = "<group>"; };
+		461A12781FD91EA0005D1175 /* HomeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen2.swift; sourceTree = "<group>"; };
+		461A127A1FD91FCE005D1175 /* submit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submit.swift; sourceTree = "<group>"; };
+		461A127E1FD962DE005D1175 /* navBarControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navBarControllers.swift; sourceTree = "<group>"; };
+		461A12801FD97A30005D1175 /* HomeScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen1.swift; sourceTree = "<group>"; };
 		46D0A9D71FBF91A80096C26A /* uniform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uniform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D0A9DA1FBF91A80096C26A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D0A9DC1FBF91A80096C26A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +87,9 @@
 		46D0A9CE1FBF91A80096C26A = {
 			isa = PBXGroup;
 			children = (
+				461A127E1FD962DE005D1175 /* navBarControllers.swift */,
+				461A12781FD91EA0005D1175 /* HomeScreen2.swift */,
+				461A127A1FD91FCE005D1175 /* submit.swift */,
 				46D0A9D91FBF91A80096C26A /* uniform */,
 				46D0A9EE1FBF91A80096C26A /* uniformTests */,
 				46D0A9F91FBF91A90096C26A /* uniformUITests */,
@@ -99,6 +112,8 @@
 			children = (
 				46D0A9DA1FBF91A80096C26A /* AppDelegate.swift */,
 				46D0A9DC1FBF91A80096C26A /* ViewController.swift */,
+				461A12761FD91C38005D1175 /* UnavailableForm.swift */,
+				461A12801FD97A30005D1175 /* HomeScreen1.swift */,
 				46D0A9DE1FBF91A80096C26A /* Main.storyboard */,
 				46D0A9E11FBF91A80096C26A /* Assets.xcassets */,
 				46D0A9E31FBF91A80096C26A /* LaunchScreen.storyboard */,
@@ -193,7 +208,7 @@
 				TargetAttributes = {
 					46D0A9D61FBF91A80096C26A = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					46D0A9EA1FBF91A80096C26A = {
 						CreatedOnToolsVersion = 9.1;
@@ -261,6 +276,11 @@
 			files = (
 				46D0A9DD1FBF91A80096C26A /* ViewController.swift in Sources */,
 				46D0A9DB1FBF91A80096C26A /* AppDelegate.swift in Sources */,
+				461A12771FD91C38005D1175 /* UnavailableForm.swift in Sources */,
+				461A127F1FD962DE005D1175 /* navBarControllers.swift in Sources */,
+				461A127B1FD91FCE005D1175 /* submit.swift in Sources */,
+				461A12811FD97A30005D1175 /* HomeScreen1.swift in Sources */,
+				461A12791FD91EA0005D1175 /* HomeScreen2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +446,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = uniform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cs147unifrom.uniform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +463,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = uniform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cs147unifrom.uniform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
