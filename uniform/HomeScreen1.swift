@@ -20,6 +20,7 @@ class HomeScreen1: UIViewController {
     @IBOutlet weak var Friday: UIButton!
     @IBOutlet weak var Check1: UIImageView!
     @IBOutlet weak var Check2: UIImageView!
+    @IBOutlet weak var bigImage: UIImageView!
     
     var selectedButton: UIButton!
     

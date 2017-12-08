@@ -149,6 +149,7 @@
                         <outlet property="Thursday" destination="hjY-B5-pzd" id="1zE-kM-Q1y"/>
                         <outlet property="Tuesday" destination="9Fw-wa-Uqg" id="GQp-vB-jT8"/>
                         <outlet property="Wensday" destination="KGY-Gx-heg" id="6F0-sX-ZFY"/>
+                        <outlet property="bigImage" destination="5Fu-zq-c1d" id="xpw-hK-H3j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Vp-iE-5Bj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -671,10 +672,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j56-NG-d9Z">
-                                <rect key="frame" x="10" y="159" width="355" height="71"/>
+                                <rect key="frame" x="10" y="160" width="355" height="71"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="gwH-UZ-0bD" kind="show" id="LN8-JJ-dqb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIB-2H-xnj">
+                                <rect key="frame" x="10" y="239" width="355" height="71"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="gwH-UZ-0bD" kind="show" id="KSL-yX-dYx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -682,6 +690,8 @@
                         <viewLayoutGuide key="safeArea" id="PXF-WD-vFV"/>
                     </view>
                     <connections>
+                        <outlet property="addButton1" destination="j56-NG-d9Z" id="Ugb-je-hCS"/>
+                        <outlet property="addButton2" destination="UIB-2H-xnj" id="q8g-p2-gLV"/>
                         <outlet property="homeButton" destination="ezi-Ji-3H5" id="m73-iH-YBq"/>
                         <outlet property="list" destination="EIw-Cr-yJR" id="JQs-pN-ZSJ"/>
                     </connections>
@@ -760,6 +770,13 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="9uh-5O-yRx" kind="show" id="OkO-jg-1QW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2th-Na-VYu">
+                                <rect key="frame" x="12" y="489" width="350" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="fdt-Ik-5U1" kind="show" id="u5j-JA-h87"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtl-Nc-95X">
@@ -1122,6 +1139,13 @@
                                     <segue destination="rlN-ad-Tgh" kind="show" id="74T-m0-QXF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1t-Yu-b1D">
+                                <rect key="frame" x="12" y="319" width="350" height="67"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="fdt-Ik-5U1" kind="show" id="FIi-qE-ua6"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ndoctors" translatesAutoresizingMaskIntoConstraints="NO" id="WVa-3O-ap6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1226,12 +1250,13 @@
         <image name="urine" width="373" height="665"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7XT-hE-sn3"/>
+        <segue reference="kzC-oF-d3o"/>
         <segue reference="oaX-NL-k2p"/>
         <segue reference="OkO-jg-1QW"/>
-        <segue reference="LoO-48-zZw"/>
-        <segue reference="nNp-Xb-ZrG"/>
-        <segue reference="Bpb-Rp-CLi"/>
+        <segue reference="Q3N-wq-3IX"/>
+        <segue reference="wrN-tA-Zqb"/>
+        <segue reference="LN8-JJ-dqb"/>
+        <segue reference="JOy-lp-AAA"/>
         <segue reference="fiY-6f-WGe"/>
     </inferredMetricsTieBreakers>
 </document>

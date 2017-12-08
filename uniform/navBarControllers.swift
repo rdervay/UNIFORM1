@@ -12,12 +12,17 @@ class navBarControllers: UIViewController {
     
     @IBOutlet weak var homeButton: UIButton!
     
+    @IBOutlet weak var addButton2: UIButton!
+    @IBOutlet weak var addButton1: UIButton!
     @IBOutlet weak var list: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.isHidden = false
+        addButton2.isEnabled = false
         if (useList2){
           list.image = UIImage (named: "prescriptions 2")
+            addButton1.isEnabled = false
+            addButton2.isEnabled = true
         }
 
         // Do any additional setup after loading the view.
