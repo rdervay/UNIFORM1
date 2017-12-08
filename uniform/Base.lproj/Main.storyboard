@@ -34,17 +34,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homepage" translatesAutoresizingMaskIntoConstraints="NO" id="5Fu-zq-c1d">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newHome" translatesAutoresizingMaskIntoConstraints="NO" id="5Fu-zq-c1d">
                                 <rect key="frame" x="0.0" y="64" width="375" height="609"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <gestureRecognizers/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nrq-ng-SzJ">
-                                <rect key="frame" x="20" y="491" width="23" height="24"/>
+                                <rect key="frame" x="20" y="326" width="23" height="24"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CbV-8D-GLW">
-                                <rect key="frame" x="20" y="446" width="23" height="24"/>
+                                <rect key="frame" x="20" y="281" width="23" height="24"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPA-iE-XiL">
@@ -76,40 +76,26 @@
                                 <rect key="frame" x="230" y="176" width="53" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuX-YR-Gl5">
-                                <rect key="frame" x="9" y="240" width="355" height="67"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="Wdc-uj-SRo" kind="show" id="IOB-lG-waG"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIq-WO-K2w">
-                                <rect key="frame" x="9" y="324" width="355" height="65"/>
+                                <rect key="frame" x="8" y="467" width="355" height="65"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="hkN-0I-pEM" kind="show" id="7dZ-CG-fq7"/>
+                                    <segue destination="2jf-zS-veg" kind="show" id="Pxn-r4-WEY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQS-gF-K6S">
                                 <rect key="frame" x="91" y="176" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGY-Gx-heg">
-                                <rect key="frame" x="162" y="177" width="47" height="43"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="dayPressed:" destination="JPw-4f-ae4" eventType="touchUpInside" id="ApA-8e-JA1"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjY-B5-pzd">
-                                <rect key="frame" x="233" y="179" width="47" height="42"/>
+                                <rect key="frame" x="226" y="168" width="60" height="58"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="dayPressed:" destination="JPw-4f-ae4" eventType="touchUpInside" id="e2S-bF-ltK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddf-YP-tm1">
-                                <rect key="frame" x="306" y="178" width="46" height="42"/>
+                                <rect key="frame" x="298" y="168" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="dayPressed:" destination="JPw-4f-ae4" eventType="touchUpInside" id="vao-sD-JmM"/>
@@ -122,18 +108,32 @@
                                     <segue destination="hkN-0I-pEM" kind="show" id="eN9-02-xX1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Fw-wa-Uqg">
-                                <rect key="frame" x="91" y="177" width="47" height="43"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="dayPressed:" destination="JPw-4f-ae4" eventType="touchUpInside" id="QG4-2j-7Oi"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVD-wG-uB7">
-                                <rect key="frame" x="16" y="173" width="53" height="47"/>
+                                <rect key="frame" x="13" y="168" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="dayPressed:" destination="JPw-4f-ae4" eventType="touchUpInside" id="h2b-xJ-Ebq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuX-YR-Gl5">
+                                <rect key="frame" x="10" y="386" width="355" height="67"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Wdc-uj-SRo" kind="show" id="mZi-38-7gZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGY-Gx-heg">
+                                <rect key="frame" x="154" y="171" width="62" height="59"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="dayPressed:" destination="JPw-4f-ae4" eventType="touchUpInside" id="ApA-8e-JA1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFw-1I-KpL">
+                                <rect key="frame" x="85" y="168" width="60" height="58"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="dayPressed:" destination="JPw-4f-ae4" eventType="touchUpInside" id="YcV-iH-uxc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -147,9 +147,11 @@
                         <outlet property="Friday" destination="ddf-YP-tm1" id="Qi6-dT-aM7"/>
                         <outlet property="Monday" destination="vVD-wG-uB7" id="C1M-dh-OCi"/>
                         <outlet property="Thursday" destination="hjY-B5-pzd" id="1zE-kM-Q1y"/>
-                        <outlet property="Tuesday" destination="9Fw-wa-Uqg" id="GQp-vB-jT8"/>
+                        <outlet property="Tuesday" destination="zFw-1I-KpL" id="ReX-qn-ZeB"/>
                         <outlet property="Wensday" destination="KGY-Gx-heg" id="6F0-sX-ZFY"/>
+                        <outlet property="apptButton" destination="kIq-WO-K2w" id="qMG-m6-7mI"/>
                         <outlet property="bigImage" destination="5Fu-zq-c1d" id="xpw-hK-H3j"/>
+                        <outlet property="testButton" destination="fuX-YR-Gl5" id="Qpa-fX-GtR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Vp-iE-5Bj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -553,7 +555,7 @@
                                 <rect key="frame" x="71" y="322" width="70" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="pen-AH-uFy" kind="show" id="4ny-ox-TiX"/>
+                                    <segue destination="pen-AH-uFy" kind="show" id="k4I-QY-LOX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qG-de-hAN">
@@ -588,7 +590,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <connections>
-                                    <action selector="back:" destination="NSA-vS-nDD" eventType="touchUpInside" id="GiI-nd-gto"/>
+                                    <action selector="back:" destination="NSA-vS-nDD" eventType="touchUpInside" id="QWE-ob-Cd9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -966,28 +968,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dv-GT-ubg">
-                                <rect key="frame" x="164" y="127" width="46" height="47"/>
+                                <rect key="frame" x="154" y="121" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="dayPressed:" destination="W7D-YY-HgR" eventType="touchUpInside" id="flI-1d-hpv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ol0-0e-d3I">
-                                <rect key="frame" x="305" y="127" width="46" height="47"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="dayPressed:" destination="W7D-YY-HgR" eventType="touchUpInside" id="Npn-lr-Qxh"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daE-eQ-CAF">
-                                <rect key="frame" x="16" y="127" width="53" height="47"/>
+                                <rect key="frame" x="14" y="123" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="dayPressed:" destination="W7D-YY-HgR" eventType="touchUpInside" id="IrI-5e-Lpn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gja-hh-9eP">
-                                <rect key="frame" x="88" y="127" width="53" height="47"/>
+                                <rect key="frame" x="86" y="123" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="dayPressed:" destination="W7D-YY-HgR" eventType="touchUpInside" id="dyt-si-MvJ"/>
@@ -1002,7 +997,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLB-fS-YYs">
-                                <rect key="frame" x="229" y="127" width="53" height="47"/>
+                                <rect key="frame" x="226" y="123" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="dayPressed:" destination="W7D-YY-HgR" eventType="touchUpInside" id="NMg-fd-neJ"/>
@@ -1013,6 +1008,20 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="fdt-Ik-5U1" kind="showDetail" id="JOy-lp-AAA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnh-Fc-ZX4">
+                                <rect key="frame" x="8" y="358" width="357" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="2jf-zS-veg" kind="show" id="pPU-mL-SEJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ol0-0e-d3I">
+                                <rect key="frame" x="298" y="123" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="dayPressed:" destination="W7D-YY-HgR" eventType="touchUpInside" id="Npn-lr-Qxh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1027,11 +1036,13 @@
                         <outlet property="Thursday" destination="sLB-fS-YYs" id="o4a-Cp-Smb"/>
                         <outlet property="Tuesday" destination="gja-hh-9eP" id="U8r-qY-HJM"/>
                         <outlet property="Wendsday" destination="1dv-GT-ubg" id="F3D-Ut-OgI"/>
+                        <outlet property="apptButton" destination="dnh-Fc-ZX4" id="2xf-JX-gTr"/>
+                        <outlet property="canvas" destination="Mil-KP-L2F" id="927-Pw-3hS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWk-5B-cqX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4007" y="-824"/>
+            <point key="canvasLocation" x="-4007.1999999999998" y="-824.43778110944538"/>
         </scene>
         <!--Unavailable Form-->
         <scene sceneID="OAT-3q-ODe">
@@ -1237,12 +1248,12 @@
         <image name="dnew" width="375" height="668"/>
         <image name="doctors unavailable" width="375" height="669"/>
         <image name="feature coming soon-1" width="375" height="669"/>
-        <image name="homepage" width="374" height="669"/>
         <image name="homepage copy 2" width="374" height="669"/>
         <image name="medical records coming soon overlay" width="375" height="665"/>
         <image name="mess" width="374" height="668"/>
         <image name="ndoctors" width="375" height="669"/>
         <image name="new prescription added" width="375" height="669"/>
+        <image name="newHome" width="374" height="669"/>
         <image name="prescription picture" width="376" height="667"/>
         <image name="prescriptions-1" width="376" height="665"/>
         <image name="records" width="375" height="665"/>
@@ -1250,13 +1261,14 @@
         <image name="urine" width="373" height="665"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kzC-oF-d3o"/>
+        <segue reference="Ypm-0l-dRu"/>
         <segue reference="oaX-NL-k2p"/>
         <segue reference="OkO-jg-1QW"/>
-        <segue reference="Q3N-wq-3IX"/>
-        <segue reference="wrN-tA-Zqb"/>
+        <segue reference="eN9-02-xX1"/>
+        <segue reference="Qy9-Ka-GX8"/>
         <segue reference="LN8-JJ-dqb"/>
-        <segue reference="JOy-lp-AAA"/>
+        <segue reference="WH6-Dz-tRl"/>
         <segue reference="fiY-6f-WGe"/>
+        <segue reference="Pxn-r4-WEY"/>
     </inferredMetricsTieBreakers>
 </document>

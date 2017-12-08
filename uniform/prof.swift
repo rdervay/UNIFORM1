@@ -16,6 +16,7 @@ class prof: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         useDoctor2 = true
+        notification1 = true
 
         // Do any additional setup after loading the view.
     }

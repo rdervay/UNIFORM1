@@ -17,6 +17,7 @@ class profile1: UIViewController {
         if (useDoctor2){
             dImage.image = UIImage (named: "d1")
         }
+        
 
         // Do any additional setup after loading the view.
     }
