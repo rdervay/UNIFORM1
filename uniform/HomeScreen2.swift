@@ -22,6 +22,7 @@ class HomeScreen2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        useHomescreen2 = true
         self.navigationController?.navigationBar.isHidden = true
         Monday.adjustsImageWhenHighlighted = false
         Wendsday.isSelected = true
@@ -30,7 +31,6 @@ class HomeScreen2: UIViewController {
         Tuesday.isSelected = false
         Thursday.isSelected = false
         Friday.isSelected = false
-//        imageView.image = UIImage(named: "WednesdayImage")
     }
     
     
@@ -46,23 +46,23 @@ class HomeScreen2: UIViewController {
             Check1.image = UIImage(named: "Artboard 2")
             Check2.image = UIImage(named: "Artboard 2-1")
         }
-        if (sender == Tuesday){
+        if (sender == Friday){
             UIView.animate(withDuration: 0.2, animations: {
                 self.Check2.alpha = 0
                 self.Check1.alpha = 0
-            })
-            Check1.image = nil
-            Check2.image = nil
-        }
-        if (sender == Wendsday){
-            UIView.animate(withDuration: 0.2, animations: {
-                self.Check1.alpha = 0
-                self.Check2.alpha = 0
             })
             Check1.image = nil
             Check2.image = nil
         }
         if (sender == Thursday){
+            UIView.animate(withDuration: 0.2, animations: {
+                self.Check1.alpha = 0
+                self.Check2.alpha = 0
+            })
+            Check1.image = nil
+            Check2.image = nil
+        }
+        if (sender == Wendsday){
             UIView.animate(withDuration: 0.2, animations: {
                 self.Check2.alpha = 0
                 self.Check1.alpha = 1
@@ -70,7 +70,7 @@ class HomeScreen2: UIViewController {
             Check1.image = UIImage(named: "Artboard 2")
             Check2.image = nil
         }
-        if (sender == Friday){
+        if (sender == Tuesday){
             UIView.animate(withDuration: 0.2, animations: {
                 self.Check1.alpha = 0
                 self.Check2.alpha = 1

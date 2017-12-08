@@ -8,6 +8,10 @@
 
 import UIKit
 
+var useHomescreen2 : Bool = false
+var useDoctor2 : Bool = false
+var useList2 : Bool = false
+
 class HomeScreen1: UIViewController {
     @IBOutlet weak var Monday: UIButton!
     @IBOutlet weak var Tuesday: UIButton!
@@ -29,9 +33,9 @@ class HomeScreen1: UIViewController {
         Tuesday.isSelected = false
         Thursday.isSelected = false
         Friday.isSelected = false
-
-        // Do any additional setup after loading the view.
     }
+    
+    
     @IBAction func dayPressed(_ sender: UIButton) {
         selectedButton.isSelected = false
         sender.isSelected = true
@@ -44,23 +48,23 @@ class HomeScreen1: UIViewController {
             Check1.image = UIImage(named: "Artboard 2")
             Check2.image = UIImage(named: "Artboard 2-1")
         }
-        if (sender == Tuesday){
+        if (sender == Friday){
             UIView.animate(withDuration: 0.2, animations: {
                 self.Check2.alpha = 0
                 self.Check1.alpha = 0
-            })
-            Check1.image = nil
-            Check2.image = nil
-        }
-        if (sender == Wensday){
-            UIView.animate(withDuration: 0.2, animations: {
-                self.Check1.alpha = 0
-                self.Check2.alpha = 0
             })
             Check1.image = nil
             Check2.image = nil
         }
         if (sender == Thursday){
+            UIView.animate(withDuration: 0.2, animations: {
+                self.Check1.alpha = 0
+                self.Check2.alpha = 0
+            })
+            Check1.image = nil
+            Check2.image = nil
+        }
+        if (sender == Wensday){
             UIView.animate(withDuration: 0.2, animations: {
                 self.Check2.alpha = 0
                 self.Check1.alpha = 1
@@ -68,7 +72,7 @@ class HomeScreen1: UIViewController {
             Check1.image = UIImage(named: "Artboard 2")
             Check2.image = nil
         }
-        if (sender == Friday){
+        if (sender == Tuesday){
             UIView.animate(withDuration: 0.2, animations: {
                 self.Check1.alpha = 0
                 self.Check2.alpha = 1

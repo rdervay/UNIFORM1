@@ -12,6 +12,17 @@
 		461A127B1FD91FCE005D1175 /* submit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A127A1FD91FCE005D1175 /* submit.swift */; };
 		461A127F1FD962DE005D1175 /* navBarControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A127E1FD962DE005D1175 /* navBarControllers.swift */; };
 		461A12811FD97A30005D1175 /* HomeScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A12801FD97A30005D1175 /* HomeScreen1.swift */; };
+		461A12831FD9C6EA005D1175 /* Doctor1view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A12821FD9C6EA005D1175 /* Doctor1view.swift */; };
+		461A12851FD9CC2A005D1175 /* profile1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A12841FD9CC2A005D1175 /* profile1.swift */; };
+		461A128D1FD9DA4E005D1175 /* prof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A128C1FD9DA4E005D1175 /* prof.swift */; };
+		4654FDAE1FD9DE6700093335 /* tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654FDAD1FD9DE6700093335 /* tests.swift */; };
+		4654FDB01FD9E00F00093335 /* DoctorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654FDAF1FD9E00F00093335 /* DoctorsList.swift */; };
+		4654FDB21FD9E38300093335 /* Formview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654FDB11FD9E38300093335 /* Formview.swift */; };
+		4654FDB41FD9E4F700093335 /* urineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654FDB31FD9E4F700093335 /* urineTest.swift */; };
+		4654FDB61FDA1FA300093335 /* doctorunavaliable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654FDB51FDA1FA300093335 /* doctorunavaliable.swift */; };
+		4654FDB81FDA232500093335 /* cameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654FDB71FDA232500093335 /* cameraController.swift */; };
+		4654FDBA1FDA24B500093335 /* perscriptionadd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654FDB91FDA24B500093335 /* perscriptionadd.swift */; };
+		4654FDBC1FDA312A00093335 /* comingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654FDBB1FDA312A00093335 /* comingSoon.swift */; };
 		46D0A9DB1FBF91A80096C26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0A9DA1FBF91A80096C26A /* AppDelegate.swift */; };
 		46D0A9DD1FBF91A80096C26A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0A9DC1FBF91A80096C26A /* ViewController.swift */; };
 		46D0A9E01FBF91A80096C26A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D0A9DE1FBF91A80096C26A /* Main.storyboard */; };
@@ -44,6 +55,17 @@
 		461A127A1FD91FCE005D1175 /* submit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submit.swift; sourceTree = "<group>"; };
 		461A127E1FD962DE005D1175 /* navBarControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navBarControllers.swift; sourceTree = "<group>"; };
 		461A12801FD97A30005D1175 /* HomeScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen1.swift; sourceTree = "<group>"; };
+		461A12821FD9C6EA005D1175 /* Doctor1view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor1view.swift; sourceTree = "<group>"; };
+		461A12841FD9CC2A005D1175 /* profile1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile1.swift; sourceTree = "<group>"; };
+		461A128C1FD9DA4E005D1175 /* prof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prof.swift; sourceTree = "<group>"; };
+		4654FDAD1FD9DE6700093335 /* tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tests.swift; sourceTree = "<group>"; };
+		4654FDAF1FD9E00F00093335 /* DoctorsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsList.swift; sourceTree = "<group>"; };
+		4654FDB11FD9E38300093335 /* Formview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formview.swift; sourceTree = "<group>"; };
+		4654FDB31FD9E4F700093335 /* urineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urineTest.swift; sourceTree = "<group>"; };
+		4654FDB51FDA1FA300093335 /* doctorunavaliable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doctorunavaliable.swift; sourceTree = "<group>"; };
+		4654FDB71FDA232500093335 /* cameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraController.swift; sourceTree = "<group>"; };
+		4654FDB91FDA24B500093335 /* perscriptionadd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perscriptionadd.swift; sourceTree = "<group>"; };
+		4654FDBB1FDA312A00093335 /* comingSoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comingSoon.swift; sourceTree = "<group>"; };
 		46D0A9D71FBF91A80096C26A /* uniform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uniform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D0A9DA1FBF91A80096C26A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D0A9DC1FBF91A80096C26A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,9 +109,6 @@
 		46D0A9CE1FBF91A80096C26A = {
 			isa = PBXGroup;
 			children = (
-				461A127E1FD962DE005D1175 /* navBarControllers.swift */,
-				461A12781FD91EA0005D1175 /* HomeScreen2.swift */,
-				461A127A1FD91FCE005D1175 /* submit.swift */,
 				46D0A9D91FBF91A80096C26A /* uniform */,
 				46D0A9EE1FBF91A80096C26A /* uniformTests */,
 				46D0A9F91FBF91A90096C26A /* uniformUITests */,
@@ -113,9 +132,23 @@
 				46D0A9DA1FBF91A80096C26A /* AppDelegate.swift */,
 				46D0A9DC1FBF91A80096C26A /* ViewController.swift */,
 				461A12761FD91C38005D1175 /* UnavailableForm.swift */,
+				461A128C1FD9DA4E005D1175 /* prof.swift */,
+				4654FDAD1FD9DE6700093335 /* tests.swift */,
+				4654FDAF1FD9E00F00093335 /* DoctorsList.swift */,
+				4654FDB11FD9E38300093335 /* Formview.swift */,
+				4654FDB31FD9E4F700093335 /* urineTest.swift */,
 				461A12801FD97A30005D1175 /* HomeScreen1.swift */,
+				461A12841FD9CC2A005D1175 /* profile1.swift */,
+				461A12821FD9C6EA005D1175 /* Doctor1view.swift */,
+				461A127E1FD962DE005D1175 /* navBarControllers.swift */,
+				461A12781FD91EA0005D1175 /* HomeScreen2.swift */,
+				461A127A1FD91FCE005D1175 /* submit.swift */,
+				4654FDBB1FDA312A00093335 /* comingSoon.swift */,
 				46D0A9DE1FBF91A80096C26A /* Main.storyboard */,
 				46D0A9E11FBF91A80096C26A /* Assets.xcassets */,
+				4654FDB91FDA24B500093335 /* perscriptionadd.swift */,
+				4654FDB51FDA1FA300093335 /* doctorunavaliable.swift */,
+				4654FDB71FDA232500093335 /* cameraController.swift */,
 				46D0A9E31FBF91A80096C26A /* LaunchScreen.storyboard */,
 				46D0A9E61FBF91A80096C26A /* Info.plist */,
 			);
@@ -276,11 +309,22 @@
 			files = (
 				46D0A9DD1FBF91A80096C26A /* ViewController.swift in Sources */,
 				46D0A9DB1FBF91A80096C26A /* AppDelegate.swift in Sources */,
+				4654FDB01FD9E00F00093335 /* DoctorsList.swift in Sources */,
+				4654FDBC1FDA312A00093335 /* comingSoon.swift in Sources */,
+				4654FDBA1FDA24B500093335 /* perscriptionadd.swift in Sources */,
+				461A128D1FD9DA4E005D1175 /* prof.swift in Sources */,
 				461A12771FD91C38005D1175 /* UnavailableForm.swift in Sources */,
+				461A12831FD9C6EA005D1175 /* Doctor1view.swift in Sources */,
 				461A127F1FD962DE005D1175 /* navBarControllers.swift in Sources */,
+				461A12851FD9CC2A005D1175 /* profile1.swift in Sources */,
 				461A127B1FD91FCE005D1175 /* submit.swift in Sources */,
+				4654FDB21FD9E38300093335 /* Formview.swift in Sources */,
 				461A12811FD97A30005D1175 /* HomeScreen1.swift in Sources */,
+				4654FDAE1FD9DE6700093335 /* tests.swift in Sources */,
 				461A12791FD91EA0005D1175 /* HomeScreen2.swift in Sources */,
+				4654FDB41FD9E4F700093335 /* urineTest.swift in Sources */,
+				4654FDB81FDA232500093335 /* cameraController.swift in Sources */,
+				4654FDB61FDA1FA300093335 /* doctorunavaliable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
